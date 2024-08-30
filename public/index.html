@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Scraper Tool</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <h1>Web Scraper Tool</h1>
+    <form id="scrapeForm">
+        <label for="url">Enter URL:</label>
+        <input type="text" id="url" name="url" required>
+        <label for="downloadZip">
+            <input type="checkbox" id="downloadZip" name="downloadZip">
+            Download ZIP
+        </label>
+        <button type="submit">Scrape</button>
+    </form>
+    <textarea id="result" rows="20" cols="80" readonly></textarea>
+    <div id="screenshotContainer" style="margin-top: 20px;">
+        <img id="screenshot" src="" alt="Screenshot" style="display: none; max-width: 100%; height: auto;">
+    </div>
+    <a id="downloadLink" href="#" download="scraped_data.zip" style="display: none;">Download ZIP</a>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
+

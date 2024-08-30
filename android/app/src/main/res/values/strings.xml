@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Rydex Web Scraper</string>
+    <string name="title_activity_main">Rydex Web Scraper</string>
+    <string name="package_name">com.rydex.webscrape</string>
+    <string name="custom_url_scheme">com.rydex.webscrape</string>
+</resources>
